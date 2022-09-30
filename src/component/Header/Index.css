@@ -1,0 +1,93 @@
+.header {
+  margin: 0%;
+  padding: 0%;
+  background-image: url("../Assets/homebg.jpg");
+}
+.headerBody {
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  height: 90px;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+.headerBody .container {
+  width: 100%;
+  max-width: 1240px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+}
+.headerBody .container .navLinks {
+  display: flex;
+  margin: auto;
+}
+.headerBody .container .navLinks ul {
+  display: flex;
+  margin: auto;
+}
+.headerBody .container .navLinks ul li {
+  list-style: none;
+  margin: 20px;
+  font-size: var(--font-five);
+  color: var(--white);
+  font-weight: var(--font-semibold);
+  cursor: pointer;
+}
+.headerBody .container .navLinks ul li:hover {
+  color: var(--black-six);
+}
+.mobileLink {
+  display: none;
+}
+@media only screen and (max-width: 900px) {
+  .headerBody .container .navLinks ul li {
+    margin: 15px;
+    font-size: var(--font-six);
+  }
+}
+@media only screen and (max-width: 700px) {
+  .headerBody .container .navLinks {
+    display: none;
+  }
+  .headerBody .container {
+    padding-left: 0px;
+  }
+  .mobileLink {
+    display: block;
+    margin: 0%;
+    height: 100vh;
+}
+.mobileLink .menu{
+    margin-left: 20px;
+}
+.mobileLink ul {
+    overflow-y: scroll;
+    list-style: none;
+    background-color: var(--black-eight);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 0;
+    overflow: hidden;
+    max-width: 290px;
+    z-index: 9;
+    margin-left: -40px;
+    padding-top: 20px;
+    margin-top: 35px;
+  }
+  .menuNav.showMenu {
+    width: 100%;
+    margin-left: 0;
+  }
+  .mobileLink ul li {
+    font-size: var(--font-six);
+    height: 60px;
+    font-weight: var(--font-semibold);
+    color: var(--black-three);
+  }
+}

@@ -1,38 +1,170 @@
-.App {
-  text-align: center;
+body{
+  margin: 0%;
+  padding: 0;
+}
+@font-face {
+  font-family: "MyPrimaryFont";
+  src: url("./component/fonts/TTF/THICCCBOI-Black.ttf") format("truetype");
+  font-weight: 900;
+}
+@font-face {
+  font-family: "MyPrimaryFont";
+  src: url("./component/fonts/TTF//THICCCBOI-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "MyPrimaryFont";
+  src: url("./component/fonts/TTF/THICCCBOI-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "MyPrimaryFont";
+  src: url("./component/fonts/TTF/THICCCBOI-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "MyPrimaryFont";
+  src: url("./component/fonts/TTF/THICCCBOI-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "MyPrimaryFont";
+  src: url("./component/fonts/TTF/THICCCBOI-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "MyPrimaryFont";
+  src: url("./component/fonts/TTF/THICCCBOI-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "MyPrimaryFont";
+  src: url("./component/fonts/TTF/THICCCBOI-Thin.ttf") format("truetype");
+  font-weight: 200;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  /* Colors */
+  --primary-color: #64253A;
+  --primary-color-two: #85344F;
+  --primary-color-three: #A56A6A;
+  --bg-primary-color: #FFF;
+  --bg-secondary-color: #F4F6F6;
+  --footer-bg: #32262A;
+  --hyper-link-text: #647B9D;
+  --black: #000000;
+  --black-two: #333333;
+  --black-three: #555555;
+  --black-four: #757575;
+  --black-five: #999999;
+  --black-six: #AAAAAA;
+  --black-seven: #CCCCCC;
+  --black-eight: #EEEEEE;
+  --white: #FFFFFF;
+  --shadow-color: #E5E5E5;
+  
+  
+  /* Font and Typography */
+  --font: "MyPrimaryFont", sans-serif;
+
+  --font-one: 48px;
+  --font-two: 32px;
+  --font-three: 24px;
+  --font-four: 20px;
+  --font-five: 18px;
+  --font-six: 16px;
+  --font-text: 16px;
+  --font-link: 14px;
+
+  --font-bold: 700;
+  --font-semibold: 600;
+  --font-regular: 400;
+  --font-extrabold: 800;
+  --font-thic: 900;
+  --font-medium: 500;
+  --font-light: 300;
+  --font-thin: 200;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+h1 {
+  font-family: var(--font);
+  font-size: var(--font-one);
+  font-weight: var(--font-extrabold);
+}
+h2 {
+  font-family: var(--font);
+  font-size: var(--font-two);
+  font-weight: var(--font-extrabold);
+}
+h3 {
+  font-family: var(--font);
+  font-size: var(--font-three);
+  font-weight: var(--font-bold);
+}
+.heading3{
+  font-weight: var(--font-medium);
+}
+h4 {
+  font-family: var(--font);
+  font-size: var(--font-four);
+  font-weight: var(--font-bold);
+}
+.heading4{
+  font-weight: var(--font-medium);
+}
+h5 {
+  font-family: var(--font);
+  font-size: var(--font-five);
+  font-weight: var(--font-semibold);
+}
+h6 {
+  font-family: var(--font);
+  font-size: var(--font-six);
+  font-weight: var(--font-semibold);
+}
+p {
+  font-family: var(--font);
+  font-size: var(--font-text);
+  font-weight: var(--font-medium);
+}
+span {
+  font-weight: var(--font-bold);
+}
+
+button{
+  min-width: 200px;
+  height: 60px;
+  background: var(--primary-color);
+  color: var(--white);
+  font-size: var(--font-six);
+  font-weight: var(--font-semibold);
+}
+.btn{
+  min-width: 200px;
+  height: 60px;
+  color: var(--black);
+  background: var(--white);
+  font-size: var(--font-six);
+  font-weight: var(--font-semibold);
+  box-shadow: 0px 6px 10px var(--shadow-color);
+}
+a{
+  color: var(--primary-color-three);
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  h1{
+    font-size: var(--font-two);
+  }
+  h2{
+    font-size: var(--font-three);
+  }
+  p {
+    font-size: var(--font-link);
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .App{
+    margin: 0%;
+    padding: 0;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
