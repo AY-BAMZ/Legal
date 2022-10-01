@@ -1,4 +1,8 @@
 import React from "react";
+import Facebook from '../Icons/facebook.svg'
+import Twitter from '../Icons/twitter.svg'
+import Google from '../Icons/google.svg'
+import LinkedIn from '../Icons/linkedIn.svg'
 import "./Index.css";
 
 function Footer() {
@@ -36,7 +40,20 @@ function Footer() {
           </div>
           <div className="col">
             <h4>Follow Us</h4>
-            <div className="socials"></div>
+            <div className="socials">
+            <img src={Facebook} alt="" />
+            <img src={Twitter} alt="" />
+            <img src={Google} alt="" />
+            <img src={LinkedIn} alt="" />
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div className="bottomSection">
+          <p>© Copyright 2022 | All right reserved</p>
+          <div className="links">
+            <li>Terms and conditions</li>
+            <li>Privacy policy</li>
           </div>
         </div>
       </div>

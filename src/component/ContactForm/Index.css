@@ -1,0 +1,167 @@
+.ContactForm {
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  background: var(--bg-secondary-color);
+}
+.ContactForm .container {
+  max-width: 1240px;
+  margin: auto;
+  padding: 80px 20px;
+}
+.ContactForm .container .formHeader {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+.ContactForm .container h2 {
+  color: var(--primary-color);
+  margin: 0%;
+}
+.ContactForm .container p {
+  color: var(--black-four);
+  font-weight: var(--font-regular);
+}
+.ContactForm .container .formContainer {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.ContactForm .container .formContainer .row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.ContactForm .container .formContainer .row .col {
+  width: 48%;
+}
+.ContactForm .container .formContainer .row .col h2,
+.ContactForm .container .formContainer .row .col p {
+  max-width: 520px;
+}
+.ContactForm .container .callUs{
+    display: flex;
+    align-items: center;
+    margin: 60px 0px;
+}
+.ContactForm .container .callUs img{
+    width: 60px;
+    height: auto;
+    margin-right: 20px;
+}
+.ContactForm .container .callUs h6{
+    text-transform: uppercase;
+    color: var(--black-four);
+    margin: 0%;
+    padding: 0%;
+}
+.ContactForm .container .callUs h3{
+    margin: 0%;
+    font-weight: var(--font-bold);
+    color: var(--primary-color);
+}
+.ContactForm .container .formContainer .row .col button{
+    margin-top: 60px;
+}
+.ContactForm .container .quickMessage{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
+    background: var(--white);
+    padding: 60px 40px;
+}
+.ContactForm .container .quickMessage .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ContactForm .container .quickMessage .row .col{
+    width: 48%;
+    margin-bottom: 45px;
+}
+.ContactForm .container .quickMessage .row .message{
+    width: 199%;
+}
+
+@media only screen  and (max-width: 900px){
+    .ContactForm .container .formContainer .row{
+        text-align: center;
+        justify-content: space-around;
+    }
+    .ContactForm .container .formContainer .row .col{
+        width: 90%;
+    }
+    .ContactForm .container .quickMessage .row .col{
+        width: 45%;
+        margin-bottom: 45px;
+    }
+    .ContactForm .container .quickMessage{
+        margin: auto;
+        margin-top: 80px;
+        padding: 60px 0%;
+    }
+    .ContactForm .container .quickMessage .row{
+        width: 100%;
+        text-align: left;
+        margin: 20px;
+        justify-content: space-around;
+    }
+    .ContactForm .container .quickMessage .row .message{
+        margin: 10px;
+    }
+    .ContactForm .container .quickMessage button{
+        margin-left: 30px;
+    }
+    .ContactForm .container .callUs{
+        justify-content: center;
+    }
+}
+
+@media only screen  and (max-width: 600px){
+    .ContactForm .container .formContainer .row{
+        text-align: center;
+        justify-content: space-around;
+    }
+    .ContactForm .container .formContainer .row .col{
+        width: 95%;
+    }
+    .ContactForm .container .quickMessage .row .col{
+        width: 100%;
+        margin-bottom: 45px;
+    }
+    .ContactForm .container .quickMessage{
+        margin: auto;
+        margin-top: 80px;
+        padding: 60px 0%;
+    }
+    .ContactForm .container .quickMessage .row{
+        width: 100%;
+        text-align: left;
+        margin: 20px;
+        justify-content: space-around;
+    }
+    .ContactForm .container .quickMessage .row .col{
+        margin-bottom: 25px;
+    }
+    .ContactForm .container .quickMessage .row .message{
+        margin: 10px;
+    }
+    .ContactForm .container .quickMessage button{
+        margin-left: 30px;
+        margin-top: 20px !important;
+    }
+    .ContactForm .container .callUs{
+        justify-content: center;
+        text-align: left;
+    }
+    .ContactForm .container .callUs h6{
+        font-size: var(--font-link);
+    }
+    .ContactForm .container .callUs h3{
+        font-size: var(--font-five);
+    }
+    .ContactForm .container .callUs img{
+        width: 45px;
+        height: auto;
+    }
+}
