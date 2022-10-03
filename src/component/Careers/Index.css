@@ -1,9 +1,4 @@
-.practicesBody{
-    width: 100%;
-        margin: 0%;
-        padding: 0%;
-}
-.practicesBody .container{
+.careerBody .container{
     max-width: 1280px;
     padding: 20px;
     margin: auto;
@@ -156,8 +151,8 @@
     width: 48%;
 }
 .body .content span{
-    color: var(--primary-color-three);
-    font-weight: var(--font-regular);
+    color: var(--black-two);
+    font-weight: var(--font-bold);
 }
 
 @media only screen and (max-width: 900px) {

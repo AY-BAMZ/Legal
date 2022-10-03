@@ -1,0 +1,25 @@
+import React from 'react'
+
+function AdministrativeStaff() {
+  return (
+    <div className='administrativeStaff'>
+        <div className="body">
+        <div className="content">
+          <h2>Paralegals</h2>
+          <p>
+            Wachtell Lipton has a robust paralegal program comprised of college
+            graduates with strong academic backgrounds. The paralegals are an
+            integral part of the legal teams at Wachtell Lipton and their
+            experience at the firm serves as a solid foundation for their future
+            professional development. Reflecting our commitment to excellence,
+            the paralegals are dedicated, professional and service-oriented,
+            supporting the attorneys as they meet the needs and goals of our
+            clients.
+          </p>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default AdministrativeStaff
