@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import HamburgerMenu from "../Icons/hamburgerMenu.svg";
 import CloseTheMenu from "../Icons/close.svg";
 import "./Index.css";
+import { Link } from "react-router-dom";
 
 function HeaderBody() {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -18,13 +19,27 @@ function HeaderBody() {
       <div className="container">
         <div className="navLinks">
           <ul>
-            <li className="link">Home</li>
-            <li className="link">About</li>
-            <li className="link">The Firm</li>
-            <li className="link">Attorneys</li>
-            <li className="link">Practices</li>
-            <li className="link">Careers</li>
-            <li className="link">Contact</li>
+            <Link to="/">
+              <li className="link">Home</li>
+            </Link>
+            <Link to="/about">
+              <li className="link">About</li>
+            </Link>
+            <Link to="/thefirm">
+              <li className="link">The Firm</li>
+            </Link>
+            <Link to="/attorneys">
+              <li className="link">Attorneys</li>
+            </Link>
+            <Link to="/practices">
+              <li className="link">Practices</li>
+            </Link>
+            <Link to="/careers">
+              <li className="link">Careers</li>
+            </Link>
+            <Link to="/contact">
+              <li className="link">Contact</li>
+            </Link>
           </ul>
         </div>
         <div className="mobileLink">

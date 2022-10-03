@@ -34,6 +34,8 @@ function ContactForm() {
           </div>
           <div className="col">
             <form className="quickMessage">
+              <div className="quickForm">
+
               <div className="row">
                 <div className="col">
                   <label htmlFor="">Full name</label>
@@ -65,6 +67,7 @@ function ContactForm() {
                 </div>
               </div>
               <button>Submit Message</button>
+              </div>
             </form>
           </div>
         </div>
