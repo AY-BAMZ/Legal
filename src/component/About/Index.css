@@ -75,3 +75,151 @@
         width: 100%;
     }
 }
+
+
+
+
+/* section Two */
+
+.sectionTwo{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background: var(--bg-secondary-color);
+}
+.sectionTwo .container{
+    margin: auto;
+    padding: 20px;
+    max-width: 1240px;
+}
+.sectionTwo .row{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.sectionTwo .row .col{
+    max-width: 50%;
+    padding: 20px;
+}
+.sectionTwo .row .col .content {
+    display: flex;
+    align-items: center;
+    margin: 60px 0;
+}
+.sectionTwo .row .col .content .line{
+    height: 230px;
+    width: 5px;
+    margin-right: 15px;
+    background: var(--primary-color);
+}
+.sectionTwo .row .col .content .component h3{
+    color: var(--primary-color);
+    font-style: italic;
+}
+.sectionTwo .row .col .content .component p{
+    color: var(--black-three);
+    margin: 20px 0;
+    max-width: 450px;
+}
+
+@media only screen and (max-width: 900px) {
+    .sectionTwo .row{
+        justify-content: space-between;
+    }
+    .sectionTwo .row .col{
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+
+/* section three */
+.sectionThree{
+    width: 100%;
+    margin: 0;
+    padding: 0%;
+}
+.sectionThree .container{
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    max-width: 1240px;
+    padding: 20px;    
+}
+.sectionThree .container .headers{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.sectionThree .container .headers h3{
+    font-weight: var(--font-medium);
+    padding-bottom: 5px;
+    border-bottom: 4px solid var(--primary-color);
+}
+.sectionThree .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.sectionThree .row .col{
+    width: 23%;
+}
+.sectionThree .row .col h3{
+    font-weight: var(--font-medium);
+    max-width: 350px;
+}
+.sectionThree .row .col p{
+    color: var(--black-three);
+    max-width: 350px;
+}
+.sectionThree .row  .vl{
+    height: 230px;
+    width: 1px;
+    background: var(--black-seven);
+}
+.sectionThree hr{
+    display: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .sectionTwo .row{
+        justify-content: space-between;
+    }
+    .sectionThree .row .col{
+        width: 48%;
+        margin-bottom: 60px;
+        margin-top: 60px;
+    }
+    #lineTwo{
+        display: none   ;
+    }
+    .sectionThree hr{
+        display: flex;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .sectionThree .row .col{
+        width: 100%;
+        margin-bottom: 60px;
+        margin-top: 60px;
+    }
+    .sectionThree .row  .vl{
+        height: 1px;
+    width: 100%;
+    background: var(--black-seven);
+    }
+    .sectionThree hr{
+        display: flex;
+        width: 100%;
+    }
+    .sectionThree .container .headers button{
+        display: none;
+    }
+}
