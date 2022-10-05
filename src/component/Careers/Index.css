@@ -154,7 +154,30 @@
     color: var(--black-two);
     font-weight: var(--font-bold);
 }
-
+#table {
+    font-family: var(--font);
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #table td, #table th {
+    border: 1px solid var(--black-eight);
+    padding: 15px;
+    width: 50%;
+  }
+  
+  #table tr:nth-child(even){background-color: var(--bg-secondary-color);}
+  #table tr:nth-child(even){background-color: var(--white);}
+  
+  
+  #table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: var(--black-eight);
+    color: var(--black-two);
+    text-transform: uppercase;
+  }
 @media only screen and (max-width: 900px) {
     .body .content .row .col{
         width: 100%;
@@ -167,4 +190,15 @@
     .body .content p{
         max-width: 98%;
     }
+}
+
+pre{
+    white-space: pre-wrap;
+}
+.buttons{
+    display: flex;
+    margin: 40px 0px;
+}
+.buttons button{
+    margin-right: 20px;
 }

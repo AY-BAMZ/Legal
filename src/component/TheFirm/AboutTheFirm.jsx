@@ -5,7 +5,7 @@ function AboutTheFirm() {
     <div className="aboutTheFirm">
       <div className="body">
         <div className="content">
-          <h2>Abouta the Firm</h2>
+          <h2>About the Firm</h2>
           <p><span>
             Wachtell Lipton was founded on a handshake in 1965 as a small group
             of lawyers dedicated to providing advice and expertise at the

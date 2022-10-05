@@ -8,6 +8,10 @@ import About from './component/About/About';
 import Practices from './component/Practices/Practices';
 import Careers from './component/Careers/Careers';
 import TheFirm from './component/TheFirm/TheFirm';
+import AttorneyBody from './component/Attorneys/AttorneyBody';
+// import AttorneyPage from './component/Attorneys/AttorneyPage';
+import ContactUs from './component/ContactUs/ContactUs';
+import RenderAttorneyPage from './component/Attorneys/RenderAttorneyPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,10 +21,11 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path="about" element={<About />} />
         <Route path="thefirm" element={<TheFirm />} />
-        <Route path="attorneys" element={<About />} />
+        <Route path="attorneys" element={<AttorneyBody />} />
         <Route path="practices" element={<Practices />} />
         <Route path="careers" element={<Careers />} />
-        <Route path="contact" element={<About />} />
+        <Route path="contact" element={<ContactUs />} />
+        <Route path="/attorney/:id" element={<RenderAttorneyPage />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
