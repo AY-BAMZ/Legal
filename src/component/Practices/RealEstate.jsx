@@ -7,7 +7,7 @@ function RealEstate() {
         <div className="content">
           <h2>Real Estate M&A</h2>
           <p>
-            Wachtell Lipton’s Real Estate Department has a leading practice
+          lldel Law Real Estate Department has a leading practice
             focused on mergers and acquisitions, private equity, corporate
             governance, restructurings and joint ventures across the REIT, real
             estate, hospitality and gaming sectors. We consistently play an
@@ -15,9 +15,9 @@ function RealEstate() {
             emphasis on large-scale public company M&A and strategic
             transactions.
             <br />
-            <br /> In 2021, Wachtell Lipton ranked first among law firms in REIT
+            <br /> In 2021,  lldel Law ranked first among law firms in REIT
             M&A, advising on seven deals totaling $45.92 billion. Year to date
-            in 2022, Wachtell Lipton has advised on deals totaling $34.8
+            in 2022,  lldel Law has advised on deals totaling $34.8
             billion.
             <br />
             <br />

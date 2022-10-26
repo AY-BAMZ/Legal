@@ -7,7 +7,7 @@ function Tax() {
         <div className="content">
           <h2>Tax</h2>
           <p>
-            Wachtell Lipton’s tax attorneys regularly advise clients on the tax
+          lldel Law tax attorneys regularly advise clients on the tax
             aspects of corporate reorganizations, acquisitions, spin-offs and
             other dispositions, joint ventures, financings, and restructurings.
             <br />

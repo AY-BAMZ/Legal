@@ -7,7 +7,7 @@ function AboutTheFirm() {
         <div className="content">
           <h2>About the Firm</h2>
           <p><span>
-            Wachtell Lipton was founded on a handshake in 1965 as a small group
+          lldel Law was founded on a handshake in 1965 as a small group
             of lawyers dedicated to providing advice and expertise at the
             highest levels.</span> <br /><br /> We have achieved extraordinary results following the
             distinctive vision of our founders — a cohesive team of lawyers

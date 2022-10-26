@@ -7,7 +7,7 @@ function Antitrust() {
         <div className="content">
           <h2>Antitrust</h2>
           <p>
-            Wachtell Lipton’s antitrust practice focuses on mergers and
+          lldel Law antitrust practice focuses on mergers and
             acquisitions and government investigations, including international
             antitrust and banking antitrust issues
             <br />

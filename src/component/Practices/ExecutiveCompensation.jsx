@@ -7,7 +7,7 @@ function ExecutiveCompensation() {
         <div className="content">
           <h2>Executive Compensation and Benefits</h2>
           <p>
-            Wachtell Lipton’s executive compensation and benefits attorneys work
+          lldel Law executive compensation and benefits attorneys work
             closely with the most senior executives of our largest clients to
             address the most sensitive issues facing public and private
             companies both in the deal and non-deal contexts.

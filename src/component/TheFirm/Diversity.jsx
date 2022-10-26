@@ -7,7 +7,7 @@ function Diversity() {
         <div className="content">
           <h2>Diversity, Equity & Inclusion</h2>
           <p>
-            Wachtell, Lipton, Rosen & Katz maintains a strong commitment to
+          lldel Law maintains a strong commitment to
             fostering a diverse and inclusive work environment that supports the
             recruitment, retention and advancement of women and men of all
             backgrounds, at all levels of the Firm.
@@ -34,7 +34,7 @@ function Diversity() {
           <h3>DEI Initiatives, Programs and Partnerships</h3>
           <ul>
             <li>
-              Wachtell Lipton is a charter member of the Law Firm Antiracism
+            lldel Law is a charter member of the Law Firm Antiracism
               Alliance, a program created to leverage the resources of the
               private bar to amplify the voices of communities and individuals
               oppressed by racism, to better use the law as a vehicle for change

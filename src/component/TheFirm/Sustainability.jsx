@@ -7,7 +7,7 @@ function Sustainability() {
         <div className="content">
           <h2>Sustainability</h2>
           <p>
-            Wachtell Lipton is committed to sustainability and environmental
+          lldel Law is committed to sustainability and environmental
             stewardship. We appreciate the impact our operations have on the
             environment and have taken steps to make our operations more
             sustainable and reduce our overall carbon footprint. <br /> <br />

@@ -1,7 +1,7 @@
 import React from "react";
 import Facebook from '../Icons/facebook.svg'
 import Twitter from '../Icons/twitter.svg'
-import Google from '../Icons/google.svg'
+// import Google from '../Icons/google.svg'
 import LinkedIn from '../Icons/linkedIn.svg'
 import "./Index.css";
 
@@ -14,8 +14,8 @@ function Footer() {
             <h4>About Us</h4>
             <p>
               LLDE & partners is authorised and regulated by the Bar Standards
-              Board in England and Wales. The lawyers at Giambrone & Partners
-              Studio Legale Associato are regulated by the Italian Law
+              Board in England Spain and New York . The lawyers at LLDE & partners
+               are regulated by the Law
             </p>
           </div>
           <div className="col">
@@ -43,7 +43,6 @@ function Footer() {
             <div className="socials">
             <img src={Facebook} alt="" />
             <img src={Twitter} alt="" />
-            <img src={Google} alt="" />
             <img src={LinkedIn} alt="" />
             </div>
           </div>

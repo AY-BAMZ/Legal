@@ -8,20 +8,19 @@ function ProBono() {
           <h2>Pro Bono</h2>
           <h3>Commitment to Pro Bono Work</h3>
           <p>
-            Wachtell Lipton is committed to supporting attorneys who undertake
+          lldel Law is committed to supporting attorneys who undertake
             pro bono projects in all areas of the law. Pro bono clients are
             clients of the firm, and no distinction is made between hours spent
             on pro bono or other client matters <br /> <br />
             The firm provides partner supervision, training, and mentoring on
             all pro bono matters. Associates are encouraged to attend pro bono
             training classes and seminars held by our partnering organizations.
-            In addition, summer associates routinely participate in Wachtell
-            Lipton’s pro bono practice and may be assigned to any pro bono
+            In addition, summer associates routinely participate in  lldel Law pro bono practice and may be assigned to any pro bono
             matter.
           </p>
           <h3>Recent Representative Matters</h3>
           <p>
-            Attorneys at Wachtell Lipton have represented pro bono clients in
+            Attorneys at  lldel Law have represented pro bono clients in
             many areas of the law including, civil rights, immigration, criminal
             defense, nonprofit corporate and tax law, housing rights, real
             estate, and the arts. For example, through our work with the Office
@@ -46,7 +45,7 @@ function ProBono() {
           </p>
           <h3>Community Activities</h3>
           <p>
-            We are proud of the considerable contributions that Wachtell Lipton
+            We are proud of the considerable contributions that  lldel Law
             has made to the legal profession and the positive impact we have on
             our community through service on not-for-profit boards, financial
             support and leadership on numerous philanthropic and public policy

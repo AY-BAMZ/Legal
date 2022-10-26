@@ -6,7 +6,7 @@ function AttorneyPageBody(props) {
     name,
     about,
     id,
-    practice,
+    address,
     publications,
     position,
     education,
@@ -34,6 +34,8 @@ function AttorneyPageBody(props) {
               </pre>
               <h3>Position</h3>
               <h6>{position}</h6>
+              <h3>Email Address</h3>
+              <h6>{address}</h6>
               <h3>Education</h3>
               <pre>
                 <p>{education}</p>

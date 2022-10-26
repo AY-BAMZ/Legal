@@ -7,7 +7,7 @@ function Associates() {
         <div className="content">
           <h2>Associates</h2>
           <p>
-            For over a decade, Wachtell, Lipton, Rosen & Katz has ranked in The
+            For over a decade,  lldel Law has ranked in The
             Vault Law 100 as one of the most prestigious firms in the country,
             as well as first in New York City, and is ranked number one in M&A.
             Moreover, in the American Lawyer’s survey of midlevel associates our
@@ -23,7 +23,7 @@ function Associates() {
             development. The result of this unique combination of sophisticated
             practice, intellectually charged atmosphere and people-oriented
             culture is a group of associates who are enthusiastic about working
-            at Wachtell Lipton.
+            at  lldel Law.
             <br />
             <br /> We have always maintained a low ratio of associates to
             partners. This structure allows us to avoid the kind of hierarchical

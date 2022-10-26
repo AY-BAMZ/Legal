@@ -21,16 +21,29 @@ function ContactForm() {
             <div className="callUs">
               <img src={Call} alt="" />
               <div className="number">
-                <h6>Call Us Now</h6>
-                <h3>(414) 567-2109</h3>
+                <h6>Call Us Now England</h6>
+                <h3>+44 786-214-5380</h3>
+              </div>
+            </div>
+            <div className="callUs">
+              <img src={Call} alt="" />
+              <div className="number">
+                <h6>Call Us Now New York </h6>
+                <h3> 1 787-417-8042</h3>
+              </div>
+            </div>
+            <div className="callUs">
+              <img src={Call} alt="" />
+              <div className="number">
+                <h6>Call Us Now Spain</h6>
+                <h3>+34 881 800 393</h3>
               </div>
             </div>
             <h2>Request for free consultation today</h2>
-            <p>
-              In dignissim euismod pretium amet enim a eu nam ut urna accumsan
-              pellentesque lacus duis pharetra eutortor.
-            </p>
-            <button className="btn">Email Us</button>
+            <h3>
+            consult@lldelaw.com.
+            </h3>
+            <button className="btn" href="consult@lldelaw.com">Email Us</button>
           </div>
           <div className="col">
             <form className="quickMessage">

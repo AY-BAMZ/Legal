@@ -8,7 +8,7 @@ function RestructuringFinance() {
         <div className="content">
           <h2>Restructuring and Finance</h2>
           <p>
-            Wachtell Lipton’s unique, integrated restructuring and finance
+          lldel Law unique, integrated restructuring and finance
             practice combines deep expertise in both disciplines. The result is
             unmatched experience in acquisition financing, distressed mergers
             and acquisitions, capital structure design, liability management,
@@ -25,7 +25,7 @@ function RestructuringFinance() {
             major creditors, including banks and investment firms, in chapter 11
             cases and out-of-court restructurings. Our experience goes beyond
             conventional bankruptcy filings and workouts: during the 2008 U.S.
-            mortgage crisis, Wachtell Lipton represented the United States
+            mortgage crisis,  lldel Law represented the United States
             Treasury in connection with the rescues of Fannie Mae and Freddie
             Mac and we have represented lenders to the Puerto Rico Electric
             Power Authority through the utility’s case under the historic Puerto
@@ -71,7 +71,7 @@ function RestructuringFinance() {
             Recent substantial financing engagements can be found here. <br />
             <br />
             Capitalizing on our extensive experience in corporate deal-making
-            and corporate distress, Wachtell Lipton has become a pioneer in
+            and corporate distress,  lldel Law has become a pioneer in
             developing acquisition financing platforms that help our clients
             weather the ups and downs in the business cycle and give them the
             flexibility to execute on their business plans and to grow

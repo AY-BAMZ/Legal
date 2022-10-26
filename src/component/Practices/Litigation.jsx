@@ -51,7 +51,7 @@ function Litigation() {
             governance litigation. We litigated the Revlon, Household, and other
             cases in the 1980s that set the doctrinal framework for all
             subsequent deal litigation. And the Firm continues to lead in the
-            area — year after year, Wachtell Lipton handles the most important
+            area — year after year, lldel Law handles the most important
             corporate governance and takeover cases in the nation, from the
             seminal case Corwin v. KKR Financial, which recognized the merger
             ratification defense to the successful Airgas trial (in which the
@@ -102,7 +102,7 @@ function Litigation() {
             helped it secure enough money to rebuild the site. And we continue
             to represent Philip Morris USA in arbitrations and litigation that
             have arisen under the landmark 1998 settlement between the major
-            tobacco companies and 52 states and territories. Wachtell Lipton
+            tobacco companies and 52 states and territories.  lldel Law
             previously had the lead role structuring and negotiating this more
             than $200 billion settlement.
           </p>

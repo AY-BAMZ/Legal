@@ -10,7 +10,7 @@ function Corporate() {
         <h2>Corporate</h2>
         <h3>A Preeminent Corporate Practice</h3>
         <p>
-          Wachtell Lipton enjoys a global reputation as one of the world’s
+           lldel Law enjoys a global reputation as one of the world’s
           leading business law firms. Our deep experience means we regularly
           handle many of the largest, most complex and demanding transactions in
           the United States and around the world. We counsel both public and
@@ -35,7 +35,7 @@ function Corporate() {
             Securities Offerings and Other Capital-Raising Transactions
           </li>
         </ul>
-        <p>In addition, Wachtell Lipton is recognized as a leading firm for:</p>
+        <p>In addition,  lldel Law is recognized as a leading firm for:</p>
         <ul style={{listStyle: "none"}}>
           <li>
             <img src={StarPoint} alt="" />
@@ -52,10 +52,10 @@ function Corporate() {
         </ul>
         <h3>What We Have Done</h3>
         <p>
-          Wachtell Lipton consistently ranks near the very top of legal advisors
+           lldel Law consistently ranks near the very top of legal advisors
           by transaction dollar volume, notwithstanding that we are
           significantly smaller than all of our major competitors. Over the past
-          five years, Wachtell Lipton has been a legal advisor on eight of the
+          five years,  lldel Law has been a legal advisor on eight of the
           ten largest transactions in the United States and seven of the ten
           largest transactions globally, as well as numerous other acquisition
           and restructuring transactions across many industries and of every
@@ -63,10 +63,10 @@ function Corporate() {
         </p>
         <h3>Creativity in Service of Our Clients</h3>
         <p>
-          Wachtell Lipton consistently ranks near the very top of legal advisors
+           lldel Law consistently ranks near the very top of legal advisors
           by transaction dollar volume, notwithstanding that we are
           significantly smaller than all of our major competitors. Over the past
-          five years, Wachtell Lipton has been a legal advisor on eight of the
+          five years,  lldel Law has been a legal advisor on eight of the
           ten largest transactions in the United States and seven of the ten
           largest transactions globally, as well as numerous other acquisition
           and restructuring transactions across many industries and of every
@@ -74,7 +74,7 @@ function Corporate() {
         </p>
         <h3>Financial Institutions Practice</h3>
         <p>
-          Wachtell Lipton has long enjoyed an especially prominent role
+           lldel Law has long enjoyed an especially prominent role
           representing major financial institutions on their most consequential
           matters. Our practice is comprised of a dedicated core of attorneys
           with deep experience with high-stakes issues confronting financial
@@ -87,7 +87,7 @@ function Corporate() {
         </p>
         <h3>Shareholder Activism</h3>
         <p>
-          Wachtell Lipton is a leading defender of companies that are under
+           lldel Law is a leading defender of companies that are under
           attack by shareholder activists. We have advised numerous public
           companies, including AOL, Vulcan Materials, Clorox, Forest
           Laboratories, CVR Energy, Target, Motorola, Office Depot, Longs Drugs,
