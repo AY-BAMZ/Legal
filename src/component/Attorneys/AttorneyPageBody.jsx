@@ -10,6 +10,7 @@ function AttorneyPageBody(props) {
     publications,
     position,
     education,
+    vcard
   } = props;
 
   console.log("props :>> ", props);
@@ -43,7 +44,8 @@ function AttorneyPageBody(props) {
             </div>
             <div className="buttons">
               <button>Download PDF</button>
-              <button className="btn">Download VCard</button>
+              <a href={vcard} download={name} >
+              <button className="btn">Download VCard</button></a>
             </div>
           </div>
         </div>

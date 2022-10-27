@@ -4,6 +4,8 @@ import Twitter from '../Icons/twitter.svg'
 // import Google from '../Icons/google.svg'
 import LinkedIn from '../Icons/linkedIn.svg'
 import "./Index.css";
+import { Link } from "react-router-dom";
+import FooterLogo from '../Assets/footerlogo.png'
 
 function Footer() {
   return (
@@ -11,7 +13,7 @@ function Footer() {
       <div className="container">
         <div className="row">
           <div className="col">
-            <h4>About Us</h4>
+            <h4><img src={FooterLogo} alt="" /></h4>
             <p>
               LLDE & partners is authorised and regulated by the Bar Standards
               Board in England Spain and New York . The lawyers at LLDE & partners
@@ -21,21 +23,20 @@ function Footer() {
           <div className="col">
             <h4>Services</h4>
             <ul>
-              <li>General practice</li>
-              <li>Corporate law</li>
-              <li>Financial law</li>
-              <li>Business law</li>
-              <li>Mediation</li>
+            <Link to="/practices"><li>General practice</li> </Link>
+            <Link to="/careers"><li>Careers</li> </Link>
+            <Link to="/attorneys"><li>Attorneys</li> </Link>
+            <Link to="/thefirm"><li>The Firm</li> </Link>
             </ul>
           </div>
           <div className="col">
             <h4>Extra Links</h4>
             <ul>
-              <li>About us</li>
+            <Link to="/about"><li>About us</li> </Link>
               <li>Terms and conditions</li>
               <li>Privacy policy</li>
               <li>News</li>
-              <li>Contact us</li>
+              <Link to="/contact"><li>Contact us</li></Link>
             </ul>
           </div>
           <div className="col">

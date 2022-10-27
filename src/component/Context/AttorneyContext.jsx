@@ -19,7 +19,7 @@ const AttorneyProvider = props => {
 
       B.A., University of California, Irvine, 1994`,
       pdf: "",
-      vcard: "",
+      vcard: "https://res.cloudinary.com/dfhr6mo4q/raw/upload/v1666889213/Martin_F__Lipton_Jr_xbeoww.vcf",
     },
     {
         id: "234763",
@@ -37,7 +37,7 @@ const AttorneyProvider = props => {
       New draft 11th Amendment to the Germany Competition Act`,
       education: ``,
       pdf: "",
-      vcard: "",
+      vcard: "https://res.cloudinary.com/dfhr6mo4q/raw/upload/v1666888179/Andrea_Denner_ke3hz8.vcf",
     },
     {
         id: "378473",
@@ -53,7 +53,7 @@ const AttorneyProvider = props => {
       Podcast: What business needs to know about the EU’s Taxonomy Regulation and its`,
       education: `BA (Hons), Law, Downing College, Cambridge University, 2000`,
       pdf: "",
-      vcard: "",
+      vcard: "https://res.cloudinary.com/dfhr6mo4q/raw/upload/v1666889213/Thomas_J_Levin_olw5ss.vcf",
     },
     {
         id: "178234",
@@ -69,7 +69,7 @@ const AttorneyProvider = props => {
       education: `University of Pennsylvania, B.S. 1952, Economics
       New York University School of Law, LL.B. 1955`,
       pdf: "",
-      vcard: "",
+      vcard: "https://res.cloudinary.com/dfhr6mo4q/raw/upload/v1666889213/Thomas_Englander_h5pv1b.vcf",
     },
   ]);
   return (

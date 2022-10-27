@@ -11,6 +11,13 @@
   padding-bottom: 30px;
   margin: auto;
 }
+.footer h4 img{
+  width: 150px;
+}
+a{
+  text-decoration: none;
+  color: var(--white);
+}
 .footer .container .row {
   display: flex;
   flex-wrap: wrap;

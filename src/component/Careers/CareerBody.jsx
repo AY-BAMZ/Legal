@@ -61,7 +61,7 @@ function CareerBody() {
               </div>
 
               <div className="activetab">
-                \ {menu === 2 && <div> Associates </div>}
+                {menu === 2 && <div> Associates </div>}
                 {menu === 3 && <div> Summer Associates </div>}
                 {menu === 4 && <div> Paralegals </div>}
                 {menu === 5 && <div> Administrative Staff </div>}
