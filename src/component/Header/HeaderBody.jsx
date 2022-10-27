@@ -20,7 +20,7 @@ function HeaderBody() {
       <div className="container">
         <div className="navLinks">
           <div className="logo">
-            <img src={Logo} alt="" />
+          <Link to="/"><img src={Logo} alt="" /></Link>
           </div>
           <ul>
             <Link to="/">
@@ -82,7 +82,7 @@ function HeaderBody() {
               Contact
             </li></Link>
           </ul>
-          <div className="logo"><img src={Logo} alt="" /></div>
+          <div className="logo"><Link to="/"><img src={Logo} alt="" /></Link></div>
         </div>
       </div>
     </div>
