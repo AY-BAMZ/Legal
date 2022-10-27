@@ -39,6 +39,7 @@
 .attorney .content h6{
     margin: 5px;
     padding: 5px;
+    max-width: 350px;
 }
 .attorney .content .image{
     width: 160px;

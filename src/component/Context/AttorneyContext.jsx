@@ -8,19 +8,16 @@ const AttorneyProvider = props => {
         id: "137834",
       image: "https://res.cloudinary.com/dfhr6mo4q/image/upload/v1666809200/Martin_F._Lipton_Jr_eoqbro.png",
       name: "Martin F. Lipton Jr.",
-      practice: "Litigation",
-      position: "Partner",
+      practice: "Professional",
+      position: "Senior Partner",
       about: `Martin F. Lipton Jr. is an associate in  lldel Law Corporate Department.
       
-Ms. Abdel-Malek received her B.S. summa cum laude from the Wharton School at the University of Pennsylvania in 2014.  She received her J.D. cum laude from Harvard Law School in 2019, where she served as an Executive Editor of the Harvard Law Review.
-
-Prior to joining the firm, Ms. Abdel-Malek worked as an analyst in the hedge fund division of The Blackstone Group.`,
+      Admitted: State Bar of California`,
       address: `Lipton@lldelaw.com`,
-      publications: `The Corporate Governance Review, U.S. chapter, Law Business Research, London, Twelfth ed. 2022.
+      publications: `Admitted: State Bar of California`,
+      education: `J.D., University of Southern California, Gould School of Law, Order of the Coif, 1998
 
-The ESG/TSR Activist “Pincer Attack”, in Harvard Law School Forum on Corporate Governance, January 26, 2021.`,
-      education: `University of Pennsylvania, B.S. 2014, summa cum laude
-Harvard Law School, J.D. 2019, cum laude (Executive Editor, Harvard Law Review)`,
+      B.A., University of California, Irvine, 1994`,
       pdf: "",
       vcard: "",
     },
@@ -28,19 +25,17 @@ Harvard Law School, J.D. 2019, cum laude (Executive Editor, Harvard Law Review)`
         id: "234763",
       image: "https://res.cloudinary.com/dfhr6mo4q/image/upload/v1666809198/Andrea_Denner_fsv3ou.jpg",
       name: "Andrea Denner",
-      practice: "Litigation",
+      practice: `Antitrust and Competition
+      `,
       position: "Partner",
-      about: `Andrea Denner is an associate in  lldel Law Corporate Department.
-
-Ms. Abdel-Malek received her B.S. summa cum laude from the Wharton School at the University of Pennsylvania in 2014.  She received her J.D. cum laude from Harvard Law School in 2019, where she served as an Executive Editor of the Harvard Law Review.
-
-Prior to joining the firm, Ms. Abdel-Malek worked as an analyst in the hedge fund division of The Blackstone Group.`,
+      about: `Andrea Denner is an partner in  lldel Law Corporate Department.
+      
+      Investigations, Enforcement and Business Crime`,
       address: `denner@lldelaw.com`,
-      publications: `The Corporate Governance Review, U.S. chapter, Law Business Research, London, Twelfth ed. 2022.
-The ESG/TSR Activist “Pincer Attack”, in Harvard Law School Forum on Corporate Governance, January 26, 2021.`,
-      education: `University of Pennsylvania, B.S. 2014, summa cum laude
-
-Harvard Law School, J.D. 2019, cum laude (Executive Editor, Harvard Law Review)`,
+      publications: `law building
+      11 October 2022
+      New draft 11th Amendment to the Germany Competition Act`,
+      education: ``,
       pdf: "",
       vcard: "",
     },
@@ -52,14 +47,11 @@ Harvard Law School, J.D. 2019, cum laude (Executive Editor, Harvard Law Review)`
       position: "Partner",
       about: `James Levin is an associate in  lldel Law Corporate Department.
 
-Ms. Abdel-Malek received her B.S. summa cum laude from the Wharton School at the University of Pennsylvania in 2014.  She received her J.D. cum laude from Harvard Law School in 2019, where she served as an Executive Editor of the Harvard Law Review.
-
-Prior to joining the firm, Ms. Abdel-Malek worked as an analyst in the hedge fund division of The Blackstone Group.`,
+      Admitted as solicitor, England and Wales, 2004`,
       address: `levin@lldelaw.com`,
-      publications: `The Corporate Governance Review, U.S. chapter, Law Business Research, London, Twelfth ed. 2022.
-The ESG/TSR Activist “Pincer Attack”, in Harvard Law School Forum on Corporate Governance, January 26, 2021.`,
-      education: `University of Pennsylvania, B.S. 2014, summa cum laude
-Harvard Law School, J.D. 2019, cum laude (Executive Editor, Harvard Law Review)`,
+      publications: `18 October 2021
+      Podcast: What business needs to know about the EU’s Taxonomy Regulation and its`,
+      education: `BA (Hons), Law, Downing College, Cambridge University, 2000`,
       pdf: "",
       vcard: "",
     },
@@ -67,18 +59,15 @@ Harvard Law School, J.D. 2019, cum laude (Executive Editor, Harvard Law Review)`
         id: "178234",
       image: "https://res.cloudinary.com/dfhr6mo4q/image/upload/v1666809198/Thomas_Englander_1_gacpkl.png",
       name: "Thomas Englander",
-      practice: "Litigation",
+      practice: "Corporate",
       position: "Partner",
-      about: `Thomas Englander is an associate in  lldel Law Corporate Department.
-
-Ms. Abdel-Malek received her B.S. summa cum laude from the Wharton School at the University of Pennsylvania in 2014.  She received her J.D. cum laude from Harvard Law School in 2019, where she served as an Executive Editor of the Harvard Law Review.
-
-Prior to joining the firm, Ms. Abdel-Malek worked as an analyst in the hedge fund division of The Blackstone Group.`,
+      about: `Law, Katholieke Universiteit Leuven, 1984`,
       address: `englander@lldelaw.com`,
-      publications: `The Corporate Governance Review, U.S. chapter, Law Business Research, London, Twelfth ed. 2022.
-The ESG/TSR Activist “Pincer Attack”, in Harvard Law School Forum on Corporate Governance, January 26, 2021.`,
-      education: `University of Pennsylvania, B.S. 2014, summa cum laude
-Harvard Law School, J.D. 2019, cum laude (Executive Editor, Harvard Law Review)`,
+      publications: `Dejonghe. W, Van de Voorde. W, 2001, "Mergers and Acquisitions in Belgium", Kluwer Law International, The Hague, London, Boston
+      "European Counsel Mergers and Acquisitions Handbook", Chapter on Belgium, Millenium Edition: "From Bid to Closing", 2000
+      "Vennootschapsrecht & Fiscaliteit", articles on mergers and acquisitions in several editions`,
+      education: `University of Pennsylvania, B.S. 1952, Economics
+      New York University School of Law, LL.B. 1955`,
       pdf: "",
       vcard: "",
     },
