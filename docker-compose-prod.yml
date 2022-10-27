@@ -1,0 +1,7 @@
+version: '3.9'
+
+services:
+  web:
+    container_name: frontend
+    build: ./
+    working_dir: /app/legal
